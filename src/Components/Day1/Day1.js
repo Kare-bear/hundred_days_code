@@ -15,17 +15,19 @@ export default class Day1 extends Component{
     render(){
         return(
             <div>
-                <header className="thoughtworks-header">
-                    <nav className="thoughtworks-nav">
-                        <a>Espanol</a>
-                        <a>Portugues</a>
-                        <a>Deutsch</a>
-                        <a>中文</a>
+                <header className="thoughtworks-header-container">
+                    <nav className="thoughtworks-nav-item">
+                        <a className="nav-sub-item1">Espanol</a>
+                        <a className="nav-sub-item2">Portugues</a>
+                        <a className="nav-sub-item3">Deutsch</a>
+                        <a className="nav-sub-item4">中文</a>
                     </nav>
-                    <input type="text" placeholder="Search thoughtworks.com"/>
-                    <button type="submit"></button>
-                    <a>News</a>
-                    <a>Contact Us</a>
+                    <input type="text" className="search-item" placeholder="Search thoughtworks.com"/>
+                    <button type="submit" className="submit-item"></button>
+                    <div className="header-sub-items">
+                        <a>News</a>
+                        <a>Contact Us</a>
+                    </div>
                 </header>
                 <main>
                     <div>
