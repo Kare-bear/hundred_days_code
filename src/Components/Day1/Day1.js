@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "./Day1.css";
 
 export default class Day1 extends Component{
     constructor(props){
@@ -14,8 +15,8 @@ export default class Day1 extends Component{
     render(){
         return(
             <div>
-                <header>
-                    <nav>
+                <header className="thoughtworks-header">
+                    <nav className="thoughtworks-nav">
                         <a>Espanol</a>
                         <a>Portugues</a>
                         <a>Deutsch</a>
@@ -23,6 +24,7 @@ export default class Day1 extends Component{
                     </nav>
                     <input type="text" placeholder="Search thoughtworks.com"/>
                     <button type="submit"></button>
+                    <a>News</a>
                     <a>Contact Us</a>
                 </header>
                 <main>
@@ -46,6 +48,7 @@ export default class Day1 extends Component{
                             <p>Subscribe Now</p>
                             <img src=""/>
                         </a>
+{/*Starting Day 2: adding CSS...*/}
                         <a>Intelligent Empowerment
                             
                             <img src=""/>

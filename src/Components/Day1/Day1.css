@@ -1,0 +1,15 @@
+.thoughtworks-header{
+    background-color: #ef5ba1;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thoughtworks-nav{
+    color:#eeeeee;
+    display: grid;
+    max-width: 25vw;
+}
+
+.thoughtworks-nav a{
+    padding-right: 2vw;
+}
