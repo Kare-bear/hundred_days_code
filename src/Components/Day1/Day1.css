@@ -1,18 +1,50 @@
-.thoughtworks-header-container{
+.thoughtworks-container{
     background-color: #ef5ba1;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     display: grid;
-    height: 5vh;
+    grid-template-columns: 20% 15% 2% 25%;
+    
+    padding: 10px;
 }
 
 .thoughtworks-nav-item{
     color:#eeeeee;
-    
-   
+    font-size: 14px;   
+    opacity: .5;
 }
 
-.thoughtworks-nav a{
-    /* padding-right: 2vw; */
-    
+.nav-sub-item1{
+    padding-right: 10px;
+}
+
+.nav-sub-item2{
+    padding-right: 10px;
+}
+
+.nav-sub-item3{
+    padding-right: 10px;
+}
+
+.search-item{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    opacity: .5;
+}
+
+.header-sub-items{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header-sub-item1{
+    padding: 12px;
+    border-left: .5px solid #eeeeee;    
+}
+
+.header-sub-item2{
+    padding: 12px;
+    border-left: .5px solid #eeeeee;
+    border-right: .5px solid #eeeeee;
 }

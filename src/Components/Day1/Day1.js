@@ -1,21 +1,11 @@
 import React, {Component} from "react";
 import "./Day1.css";
 
-export default class Day1 extends Component{
-    constructor(props){
-        super(props);
-
-        this.state={
-
-        }
-
-
-    }
-
-    render(){
+export default function Day1(props){
+    
         return(
             <div>
-                <header className="thoughtworks-header-container">
+                <div className="thoughtworks-container">
                     <nav className="thoughtworks-nav-item">
                         <a className="nav-sub-item1">Espanol</a>
                         <a className="nav-sub-item2">Portugues</a>
@@ -25,10 +15,10 @@ export default class Day1 extends Component{
                     <input type="text" className="search-item" placeholder="Search thoughtworks.com"/>
                     <button type="submit" className="submit-item"></button>
                     <div className="header-sub-items">
-                        <a>News</a>
-                        <a>Contact Us</a>
+                        <a className="header-sub-item1">NEWS</a>
+                        <a className="header-sub-item2">CONTACT US</a>
                     </div>
-                </header>
+                </div>
                 <main>
                     <div>
                         Thoughtworks
@@ -69,4 +59,3 @@ export default class Day1 extends Component{
             </div>
         )
     }
-}
