@@ -1,19 +1,22 @@
 import React, {Component} from "react";
 import "./Day1.css";
+import logo from "../Day1/tw-logo.png";
+
 
 export default function Day1(props){
     
         return(
             <div>
                 <div className="thoughtworks-container">
-                    <nav className="thoughtworks-nav-item">
+                    <ul className="thoughtworks-nav-item">
                         <a className="nav-sub-item1">ESPANOL</a>
                         <a className="nav-sub-item2">PORTUGUES</a>
                         <a className="nav-sub-item3">DEUTSCH</a>
                         <a className="nav-sub-item4">中文</a>
-                    </nav>
+                    </ul>
+                    
                     <input type="text" className="search-item" placeholder="Search thoughtworks.com"/>
-                    <input type="image" className="submit-item"></input>
+                    <button type="submit" className="submit-item"></button>
                     <div className="header-sub-items">
                         <a className="header-sub-item1">NEWS</a>
                         <a className="header-sub-item2">CONTACT US</a>
@@ -23,8 +26,8 @@ export default function Day1(props){
                     
 {/*g2 = group 2*/}
                 <div className="g2-thoughtworks-container">
-                    <div className="g2-logo-item">Thoughtworks</div>
-                        <nav className="g2-nav-items">
+                    <img src={logo} alt="logo" className="g2-logo-item"/>
+                        <ul className="g2-nav-items">
                             <a className="g2-sub-item-1">Clients</a>
                             <a className="g2-sub-item-2">Services</a>
                             <a className="g2-sub-item-3">Products</a>
@@ -32,8 +35,8 @@ export default function Day1(props){
                             <a className="g2-sub-item-5">Events</a>
                             <a className="g2-sub-item-6">About Us</a>
                             <a className="g2-sub-item-7">Careers</a>
-                        </nav>
-                    </div>
+                        </ul>
+                </div>
                 
                     <article>
                         <section>ALWAYS INVENTING, ALWAYS DELIVERING</section>
