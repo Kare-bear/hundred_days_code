@@ -20,18 +20,21 @@ export default function Day1(props){
                     </div>
                 </div>
                 <main>
-                    <div>
-                        Thoughtworks
-                        <nav>
-                            <a>Clients</a>
-                            <a>Services</a>
-                            <a>Products</a>
-                            <a>Insights</a>
-                            <a>Events</a>
-                            <a>About Us</a>
-                            <a>Careers</a>
+                    
+{/*g2 = group 2*/}
+                <div className="g2-thoughtworks-container">
+                    <div className="g2-logo-item">Thoughtworks</div>
+                        <nav className="g2-nav-items">
+                            <a className="g2-sub-item-1">Clients</a>
+                            <a className="g2-sub-item-2">Services</a>
+                            <a className="g2-sub-item-3">Products</a>
+                            <a className="g2-sub-item-4">Insights</a>
+                            <a className="g2-sub-item-5">Events</a>
+                            <a className="g2-sub-item-6">About Us</a>
+                            <a className="g2-sub-item-7">Careers</a>
                         </nav>
                     </div>
+                
                     <article>
                         <section>ALWAYS INVENTING, ALWAYS DELIVERING</section>
                         <section>Great ideas, brought to life with technology. In weeks, not years.</section>

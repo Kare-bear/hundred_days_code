@@ -11,7 +11,8 @@
 .thoughtworks-nav-item{
     color:#eeeeee;
     font-size: 14px;   
-    opacity: .5;
+    opacity: .75;
+    width: 20vw;
 }
 
 .nav-sub-item1{
@@ -31,12 +32,12 @@
     border: none;
     border-bottom: 1px solid #eeeeee;
     opacity: .5;
-}
+    }
 
 .header-sub-items{
     font-size: 12px;
     font-weight: 700;
-}
+    }
 
 .header-sub-item1{
     padding: 12px;
@@ -47,4 +48,16 @@
     padding: 12px;
     border-left: .5px solid #eeeeee;
     border-right: .5px solid #eeeeee;
+}
+
+.g2-thoughtworks-container{
+    max-width: 65vw;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(146, 146, 146);
+}
+
+.g2-logo-item{
+    font-size: 32px;
 }
