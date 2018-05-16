@@ -3,14 +3,15 @@
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     display: grid;
-    grid-template-columns: 20% 15% 2% 25%;
-    
+    grid-template-columns: auto 15% 2% auto;
+    align-items: end end center start;
     padding: 10px;
+    padding-left: 18%;
 }
 
 .thoughtworks-nav-item{
     color:#eeeeee;
-    font-size: 14px;   
+    font-size: 13px;   
     opacity: .75;
     width: 20vw;
 }
@@ -34,9 +35,16 @@
     opacity: .5;
     }
 
+.submit-item{
+    background-image: url("looking-glass.png");
+    
+}
+
 .header-sub-items{
     font-size: 12px;
     font-weight: 700;
+    margin-right: 20%;
+    width: 12vw;
     }
 
 .header-sub-item1{
