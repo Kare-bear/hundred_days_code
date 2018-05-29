@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .thoughtworks-container{
     background-color: #ef5ba1;
     color: #ffffff;
