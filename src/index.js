@@ -11,5 +11,9 @@ import App from './App';
 const store = createStore(chat)
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>
+    , document.getElementById('root'));
+
